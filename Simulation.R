@@ -1,15 +1,17 @@
  #============================
-# R Code to implement simulations in the Invited Commentary:
-# `All generalizations are dangerous, even this one.' - Dumas
-# Written by Laura Balzer for Epidemiology 2017 
+# R Code to implement simulations in manuscript "Generalizability of Subgroup Effects"
+# By Seamans MJ, Hong H, Ackerman B, Schmid I, Stuart EA for Epidemiology 2020
+# 
+# Code adapted from Balzer LB. `All generalizations are dangerous, even this one.' - Alexandre Dumas. Epidemiology, 2017.
+# https://github.com/LauraBalzer/On-Generalizability
+# 
+# Simulation adapted from Lesko CR, Buchanan AL, Westreich D, Edwards JK, Hudgens MG, Cole SR.
+#Generalizing study results: a potential outcomes perspective. Epidemiology, 2017.
 #
-# Programmer: Laura Balzer
-# lbbalzer@hsph.harvard.edu
-#
-# Full reference to Lesko et al: 
-# C.R. Lesko, A.L. Buchanan, D. Westreich, J.K. Edwards, M.G. Hudgens, and S.R. Cole. 
-# Generalizing study results: a potential outcomes perspective. Epidemiology, 2017.
-#============================
+# Contact: Marissa Seamans
+# mseamans@ph.ucla.edu
+# Department of Epidemiology, UCLA
+# #============================
 
 args <- (commandArgs(TRUE))
 xz <- c(-0.25, -0.15, -0.05, 0, 0.05, 0.15, 0.25)
